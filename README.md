@@ -15,6 +15,28 @@ For the **VM NSG**, I allowed only **HTTP and HTTPS traffic** so that the **IIS 
 
 ## Step - 1
 
-i. Creating a Virtual Network 
+i. Creating a Virtual Network (I have created with Demo-vnet Name)
+
+![image alt](2.PNG)
+
+ii. Go into ip address and create a subnet (I used Class C)
+
+![image alt](3.PNG)
+
+## Step - 2
+
+i. Now Create 2 VMs (Make sure you seletc RDP port)
+
+![image alt](4.PNG)
+
+## Step - 3
+
+i. Create 2 NSG , 1 for the VM and 1 for the Subnet
+
+![image alt](5.PNG)
+
+## Step - 4
+
+i. Now open the VM subnet and Give permission of 
 
 
